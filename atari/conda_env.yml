@@ -1,0 +1,22 @@
+name: dt_atari
+channels:
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.8
+  - pytorch=1.12.1         # Updated PyTorch version
+  - cudatoolkit=11.3         # Updated CUDA version
+  - numpy
+  - psutil
+  - opencv                 # Provided as a conda package
+  - pip
+  - pip:
+    - atari-py==0.2.9     # Specific version
+    - pyprind
+    - tensorflow-gpu==2.11.0  # Compatible TensorFlow GPU version
+    - absl-py
+    - gin-config
+    - gym[atari,accept-rom-license]==0.26.2  # Gym with Atari support
+    - tqdm
+    - blosc
+    - dopamine-rl==2.0.5    # Use version compatible with Python 3.8
