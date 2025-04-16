@@ -18,8 +18,12 @@ Supported features:
 ├── 📂 cloned_repo
 │   ├── Cloned it from official decision transformer repository: https://github.com/kzl/decision-transformer/tree/master
 ├── 📂 modified
-    ├── atari
-    ├── gym
-    ├── .gitignore
+|   ├── atari
+|   ├── gym
+|
+├── .gitignore
+├── AI_ML_Project_ppt.pdf
+├── AI_ML_report.pdf
+├── README.md
 
 ```
