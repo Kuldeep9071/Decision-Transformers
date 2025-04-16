@@ -1,0 +1,11 @@
+Loading dataset for mujoco_hopper with dataset expert
+==================================================
+Starting new experiment: mujoco_hopper expert
+1086 trajectories, 999164 timesteps found
+Average return: 3857.80, std: 644.21
+Max return: 4376.33, min: 395.64
+Normalised return: 86.97
+Normalised max return: 100.00
+Normalised min return: 0.00
+Normalised std: 6.24
+==================================================
